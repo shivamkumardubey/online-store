@@ -1,0 +1,12 @@
+conditionpublic like=false;
+  public likecount=0;
+  public myclick(){
+    console.log(this.like);
+    if(this.like==false){
+      this.like=true;
+      this.likecount+=1;
+    }
+    else{
+     this.like=false;
+     this.likecount+=-1;
+    }

@@ -1,0 +1,46 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+  <!-- Highlight Card -->
+  
+ <!-- <app-navbar></app-navbar>
+  <app-slidebar></app-slidebar>
+  <app-product></app-product>
+  <app-cart></app-cart>
+ -->
+ <div class="container-fluid" style="padding: inherit;"  >
+  
+  <div [class]="nav"   style="padding: inherit;" #topnav>
+      <a routerLink="/home" ><i class='fas fa-home'></i>Home</a>
+      <a routerLink="/login" class="navright">log-in<i class="fa fa-user-circle"></i></a>
+     
+      <a routerLink="/signup" class="navright">Sign-Up</a>
+     
+      <a routerLink="/cart" class="navright" (click)="cartupdate()">cart<i class='fas fa-shopping-cart'></i><span class="badge badge-secondary">{{cartno}}</span></a>
+      <a routerLink="/Products" class="navright">Products</a>
+      
+      <a  class="icon" (click)="myFunction(topnav)">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  
+  </div>
+ 
+  <router-outlet></router-outlet>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+

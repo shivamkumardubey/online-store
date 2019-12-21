@@ -1,0 +1,26 @@
+
+<div *ngFor="let data of data" > 
+    <div class="row" style="margin-top: 80px;" *ngIf="data.condition">
+          <div class="col-1 col-sm-1"><i style="color: white;">{{data.index}}</i></div>
+          <div class="col-4 col-sm-4">
+              <img src="{{data.src}}" width="150px" height="150px">
+           </div>
+         <div class="col-3 col-sm-3">
+               <div class="row">
+                    <div class="col-12 col-sm12"><b>{{data.name}}</b></div>
+               </div>
+              <div class="row">
+                 <div class="col-12 col-sm12"><i class='fas fa-rupee-sign'></i>{{data.price}}</div>
+               </div>
+         </div>
+         <div class="col-3 col-sm-3">
+            <div class="row">
+                 <div class="col-12 col-sm12"><button type="button" class="btn btn-primary" ><a href="/login" style="text-decoration: white;"><b style="color: white;">buy now</b></a></button></div>
+            </div>
+           <div class="row" style="margin-top: 15px;">
+              <div class="col-12 col-sm12"><button type="button" class="btn btn-danger" (click)="itemremove($event)" >Remove</button></div>
+            </div>
+      </div>
+   </div>
+  
+</div>
