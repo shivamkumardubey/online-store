@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  
 
 ### Tools and Technologies
- HTML,CSS,Bootstrap-4 and Angular
+ HTML,CSS,Bootstrap-4 and Angular-8
 
 #### This project covers all fundamentals of Angular
  * Multiple Modules
